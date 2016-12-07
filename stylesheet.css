@@ -1,0 +1,72 @@
+html, body {
+  font-family: 'Karla', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
+}
+h1{
+    color: #3498DB;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: 'Karla', sans-serif;
+}
+ul {
+  list-style-type: none;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    margin: .25em 3em .5em 3em;
+}
+.nav a {
+    color: #2E86C1;
+    font-family: 'Karla', sans-serif;
+}
+.nav a:hover{
+    color: #D0D3D4;
+}
+a:visited {
+    color: #AED6F1;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+#plants{
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    width: auto;
+    height: 500px;
+}
+
+#biopic{
+    position: relative;
+    width: auto;
+    height: 18em;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 50px 10px 250px 100px;
+    float: left;
+}
+#bio{
+    position: relative;
+    width: 20rem;
+    height: 7rem;
+    float: right;
+    margin: 150px 100px 250px 10px;
+    font-family: 'Karla', sans-serif;
+    color: #2E86C1;
+    display: inline;
+    
+}
+.page-wrap{
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Karla', sans-serif;
+}
